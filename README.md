@@ -1,4 +1,4 @@
-# b-i-t-p-java-.package btvn;
+package btvn;
 
 import java.util.Iterator;
 import java.util.Scanner;
@@ -29,7 +29,7 @@ public class bt_chuong2 {
 	        }
 	         
 	        tbc = tuso/ n;
-//	        System.out.println("Trung bình cộng = " +tbc);
+	        System.out.println("Trung bình cộng = " +tbc);
 //	        //bai9
 	        String chuoi;
 	        char kyTu;
@@ -54,9 +54,9 @@ public class bt_chuong2 {
 	        System.out.println("Nhập vào chuỗi bất kỳ: ");
 	        chuoi = scanner.nextLine();
 	             
-	        // duyệt từ đầu đến cuối chuỗi
+	       
 	        for (int i = 0; i < chuoi.length(); i++) {
-	            // Nếu ký tự tại vị trí thứ i bằng 'a' thì tăng count lên 1
+	           
 	            if (chuoi.charAt(i) == kyTu) {
 	                count++;
 	            }
@@ -118,7 +118,7 @@ public class bt_chuong2 {
 		        System.out.println("Nhập vào số cột của ma trận: ");
 		        n = scanner.nextInt();
 		             
-		        // khai báo ma trận A có m dòng, n cột
+		       
 		        int A[][] = new int[m][n];
 		             
 		        System.out.println("Nhập các phần tử cho ma trận: ");
@@ -147,3 +147,5 @@ public class bt_chuong2 {
 		   
 	
 	    }
+	        
+	 
